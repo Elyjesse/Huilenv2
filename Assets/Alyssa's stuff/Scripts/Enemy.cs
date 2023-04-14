@@ -4,36 +4,20 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int maxHealth = 10; // The maximum health of the GameObject
-    private int currentHealth; // The current health of the GameObject
+    public int health;
+    public GameObject slime;
 
-    private void Start()
+    public void Start()
     {
-        currentHealth = maxHealth; // Initialize the current health to the maximum health at the start of the game
+        health = 30;
+        slime.SetActive(true);
     }
-
-    public void Damage(int damageAmount)
+    public void Update()
     {
-        currentHealth -= damageAmount; // Subtract the damage amount from the current health
-
-        if (currentHealth <= 0)
+        if (health <= 0)
         {
-            Die(); // If the current health is zero or below, call the Die method
+            slime.SetActive(false);
         }
     }
 
-    public void TakeDamage(int damage)
-    {
-        maxHealth -= damage; // Subtract the damage value from the enemy's health
-        if (maxHealth <= 0)
-        {
-            Die(); // If the enemy's health is zero or below, call the Die method
-        }
-    }
-
-    private void Die()
-    {
-        // Perform any necessary actions when the enemy dies, such as playing a death animation or disabling the enemy GameObject
-        Destroy(gameObject);
-    }
 }
