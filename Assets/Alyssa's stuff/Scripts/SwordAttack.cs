@@ -5,7 +5,7 @@ using UnityEngine;
 public class SwordAttack : MonoBehaviour
 {
     public Enemy enemy;
-    public float attackRange = 6.0f; // The range of the attack
+    public float attackRange = 6.0f;
 
 
 
