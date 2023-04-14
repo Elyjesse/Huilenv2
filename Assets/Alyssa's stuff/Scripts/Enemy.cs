@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int maxHealth = 100; // The maximum health of the GameObject
+    public int maxHealth = 10; // The maximum health of the GameObject
     private int currentHealth; // The current health of the GameObject
 
     private void Start()

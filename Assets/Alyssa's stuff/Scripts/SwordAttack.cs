@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SwordAttack : MonoBehaviour
 {
-    public float attackDuration = 0.5f; // The duration of the attack animation in seconds
+
     public float attackRange = 2.0f; // The range of the attack
 
     private bool isAttacking = false; // Indicates if the player is currently attacking
@@ -35,10 +35,6 @@ public class SwordAttack : MonoBehaviour
         {
             attackTimer += Time.deltaTime;
 
-            if (attackTimer >= attackDuration)
-            {
-                isAttacking = false;
-            }
         }
     }
 }
