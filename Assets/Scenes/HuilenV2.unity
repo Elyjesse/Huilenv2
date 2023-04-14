@@ -584,11 +584,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1803444908}
   - {fileID: 1970836338}
   - {fileID: 1542493849}
   - {fileID: 1122088626}
   - {fileID: 1382876479}
-  - {fileID: 1803444908}
   - {fileID: 874725552}
   - {fileID: 1237981254}
   - {fileID: 754425192}
@@ -2317,10 +2317,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
+      propertyPath: m_Name
+      value: slime1_(11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &707496893 stripped
 Transform:
@@ -2538,10 +2544,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
+      propertyPath: m_Name
+      value: slime1_(7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &754425192 stripped
 Transform:
@@ -2831,10 +2843,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
+      propertyPath: m_Name
+      value: slime1_(5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &874725552 stripped
 Transform:
@@ -3260,19 +3278,25 @@ PrefabInstance:
     - target: {fileID: 4978519010291232683, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -39.4
+      value: -42.51
       objectReference: {fileID: 0}
     - target: {fileID: 4978519010291232683, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15
+      value: 14.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
+      propertyPath: m_Name
+      value: slime1_(10)
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &983300197 stripped
 Transform:
@@ -3424,10 +3448,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
+      propertyPath: m_Name
+      value: slime1_(9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &985200023 stripped
 Transform:
@@ -4240,10 +4270,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
+      propertyPath: m_Name
+      value: slime1_(3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &1122088626 stripped
 Transform:
@@ -5022,10 +5058,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
+      propertyPath: m_Name
+      value: slime1_(6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &1237981254 stripped
 Transform:
@@ -5620,10 +5662,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
+      propertyPath: m_Name
+      value: slime1_(4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &1382876479 stripped
 Transform:
@@ -6499,10 +6547,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
+      propertyPath: m_Name
+      value: slime1_(8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &1526172655 stripped
 Transform:
@@ -6686,10 +6740,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
+      propertyPath: m_Name
+      value: slime1_(2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &1542493849 stripped
 Transform:
@@ -8049,10 +8109,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
+      propertyPath: m_Name
+      value: slime1_(1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646546383985997073, guid: d862ddd886b5f304f84545ae35d2024f,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!4 &1970836338 stripped
 Transform:
@@ -14355,7 +14421,7 @@ PrefabInstance:
     - target: {fileID: 4922688852530412219, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4922688852530412219, guid: d862ddd886b5f304f84545ae35d2024f,
         type: 3}
@@ -14427,7 +14493,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3693237470087075797, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d862ddd886b5f304f84545ae35d2024f, type: 3}
 --- !u!1 &4922688853986760728 stripped
 GameObject:
